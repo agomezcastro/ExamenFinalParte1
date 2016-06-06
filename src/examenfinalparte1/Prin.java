@@ -11,13 +11,13 @@ public class Prin {
      */
     public static void main(String[] args) throws IOException {
         Principal obj = new Principal(10, 20);
-        int result1 = obj.i;
+        int result1 = obj.res;
         System.out.println("Es: " + result1);
         Principal nm = new Principal(10);
-        int result2 = nm.i;
+        int result2 = nm.res;
         System.out.println("Es: " + result2);
         Principal mn = new Principal();
-        int result3 = mn.i;
+        int result3 = mn.res;
         System.out.println("Es: " + result3);
     }
 }
