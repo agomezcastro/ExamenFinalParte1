@@ -3,16 +3,21 @@ package examenfinalparte1;
 import java.io.IOException;
 
 public class Prin {
-
+    
+    /**Clase main donde se ejecuta el programa
+     * mostrando los resultados
+     * @param args
+     * @throws IOException 
+     */
     public static void main(String[] args) throws IOException {
         Principal obj = new Principal(10, 20);
-        int n = obj.i;
-        System.out.println("Es: " + n);
+        int result1 = obj.i;
+        System.out.println("Es: " + result1);
         Principal nm = new Principal(10);
-        int m = nm.i;
-        System.out.println("Es: " + m);
+        int result2 = nm.i;
+        System.out.println("Es: " + result2);
         Principal mn = new Principal();
-        int nn = mn.i;
-        System.out.println("Es: " + nn);
+        int result3 = mn.i;
+        System.out.println("Es: " + result3);
     }
 }
